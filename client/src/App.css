@@ -1,0 +1,8 @@
+
+.main {
+  min-height:calc(100vh - 190px);
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
