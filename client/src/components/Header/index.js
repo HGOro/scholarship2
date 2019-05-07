@@ -33,11 +33,11 @@ class Header extends Component{
                 <NavItem href="/">
                     Home
                 </NavItem>
-                <NavItem href="">
-                    Elementary
-                </NavItem>
                 <NavItem href="/subjects">
                     Subjects
+                </NavItem>
+                <NavItem href="/">
+                    Research
                 </NavItem>
             </Navbar> 
         )   
@@ -49,14 +49,17 @@ class Header extends Component{
                 <NavItem href="/">
                     Home
                 </NavItem>
-                <NavItem href="">
-                    Elementary
+                <NavItem href="/subjects">
+                    Subjects
                 </NavItem>
                 <NavItem href="">
                     Research
                 </NavItem>
-                <NavItem href="/subjects">
-                    Subjects
+                <NavItem href="">
+                    My Project
+                </NavItem>
+                <NavItem href="/dashboard">
+                    Dashboard
                 </NavItem>
                 <NavItem>
                     <Button onClick={this.handleLogout}>
