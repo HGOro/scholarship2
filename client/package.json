@@ -4,6 +4,7 @@
   "private": true,
   "proxy": "http://localhost:8000",
   "dependencies": {
+    "babel-jest": "^24.8.0",
     "chart.js": "^2.8.0",
     "materialize-css": "^1.0.0-rc.2",
     "npm": "^6.9.0",
